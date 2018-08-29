@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, section > div{
+    position: fixed;
+    color: white;
+}
+
+h2, h5{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+nav{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(160, 1, 80);
+}
+
+section > div{
+    right: 0;
+    height: 100%;
+    width: 20%;
+    background-color: navy;
+    padding: 75px 0px 0px 0px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 10%;
+    display: flex;
+}
+
+#entry-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   flex-basis: 80%;
+
+}
+
+.placemat{
+    width: 70%;
+    padding: 10px;
+    margin: 25px;
+    background-color: purple;
+}
+
+.entry{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+p{
+    margin: 20px;
+}
+
+img{
+    float: left;
+    margin: 10px;
+}
+
+span{
+    display: inline-block;
+    margin: 25px 0px;
+}
