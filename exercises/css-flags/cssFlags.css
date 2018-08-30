@@ -1,0 +1,203 @@
+#flagContainer, .text, #france, #switzerland, #gambiaWhite, #japan, #greeceBox, #nigerWhite, #maldives{
+    display: flex;
+}
+
+#flagContainer{
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flags{
+    margin: 20px;
+    height:450px;
+    width: 550px;
+    border: 1px black solid;
+}
+
+.text{
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+
+
+
+#france{
+    flex-direction: row;
+    align-items: center;
+}
+
+#swissContainer, #japan, #greeceBox, #nigerWhite, #maldives{
+    justify-content: center;
+    align-items: center;
+}
+
+#switzerland, #gambiaWhite{
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#sweden, #tongaWhite, #greece, #maldivesInner{
+    position: relative;
+}
+
+#swedenHorizontal, #swedenVertical, #tongaVertical, #tongaHorizontal, #greeceBox, #greeceBoxVertical, #maldivesGreenMoon, #maldivesWhiteMoon{
+    position: absolute;
+}
+
+#swedenHorizontal{
+    top: 40%;
+}
+
+#maldivesGreenMoon, #maldivesWhiteMoon{
+    top: 12%;
+}
+
+#maldivesWhiteMoon{
+    left: 30%;
+}
+
+#swedenVertical{
+    left: 28%;
+}
+
+#tongaHorizontal{
+    left: 27%;
+    top: 37.5%;
+}
+
+#tongaVertical{
+    left: 42%;
+    top: 12.5%;
+}
+
+#greeceBox{
+    top: 0;
+    left: 0;
+}
+
+#greeceBoxVertical, #maldivesGreenMoon{
+    left: 40%;
+}
+
+#japanRed, #nigerCircle, #maldivesWhiteMoon, #maldivesGreenMoon{
+    border-radius: 50%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> COLORS >>>>>>>>>>>>>>>>>>> */
+
+.blue{
+    background-color: blue;
+}
+
+#gambiaBlue{
+    background-color: navy;
+}
+
+.white{
+    background-color: white;
+}
+
+.red, #switzerland{
+    background-color: red;
+}
+
+#germanyBlack{
+    background-color: black;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.green{
+    background-color: green;
+}
+
+#sweden{
+    background-color: rgb(0, 106, 167);
+}
+
+.greeceBlue{
+    background-color: rgb(13, 19, 175);
+}
+
+#nigerOrange, #nigerCircle{
+    background-color: rgb(224, 82, 6);
+}
+
+/* >>>>>>>>>>>>>>>>>>>> HEIGHTS >>>>>>>>>>>>>>>>>>> */
+
+.greece.white, .greeceBlue{
+    height: 11.11%
+}
+
+.swissShort, .swissLong, #swedenHorizontal, #tongaHorizontal, #greeceBoxHorizontal{
+    height: 20%;
+}
+
+#gambiaBlue{
+    height: 60%;
+}
+
+#france > div, #swedenVertical, #greeceBoxVertical{
+    height: 100%;
+}
+
+#germany > div, #gambia > div, #niger > div{
+    height: 33.333%;
+} 
+
+#tongaWhite{
+    height: 45%;
+} 
+
+#madagascar > div, #japanRed, #maldivesInner{
+    height: 50%;
+} 
+
+#greeceBox{
+    height: 55.55%;
+}
+
+#maldivesInner{
+    height: 60%;
+}
+
+#tongaVertical, #nigerCircle, #maldivesWhiteMoon, #maldivesGreenMoon{
+    height: 75%;
+}
+
+#japan{
+    height: 550px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> WIDTHS >>>>>>>>>>>>>>>>>>> */
+
+#tongaVertical{
+    width: 15%;
+}
+
+.swissShort, #swedenVertical, #greeceBoxVertical, #nigerCircle{
+    width: 20%;
+}
+
+#france > div{
+    width: 33.333%;
+} 
+
+#tongaWhite, #tongaHorizontal, #greeceBox{
+    width: 45%;
+}
+
+#japanRed{
+    width: 50%;
+}
+
+.swissLong, #maldivesInner, #maldivesWhiteMoon, #maldivesGreenMoon{
+    width: 60%;
+}
+
+#germany > div, #madagascar > div, #swedenHorizontal, #gambia > div, #gambiaBlue, .greece.white, .greeceBlue, #greeceBoxHorizontal, #niger > div{
+    width: 100%;
+}
