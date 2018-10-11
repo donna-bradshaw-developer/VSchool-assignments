@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://www.punchbowl.com/gridfs/fs/4e4d7e7485216d389200020b-1313701494");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+div{
+    text-align: center;
+    flex-basis: 85%;
+}
+
+h1{
+    font: 'Times New Roman';
+    font-size: 55px;
+    color: White;
+}
+
+h2{
+    font: 'Times New Roman';
+    font-size: 35px;
+    color: goldenrod;
+}
+
+main{
+    padding: 100px;
+    color: grey;
+}
+
+#square{
+    font-size: 25px;
+    color: black;
+    background-color: pink;
+    padding: 10px;
+    font-family: "Times New Roman", cursive, serif;
+}
+
+ol{
+    padding: 10px;
+}
+
+section{
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: 125%;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        flex-flow: row wrap;
+    }
+    div{
+        flex-basis: 100%;
+    }
+
+    section{
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-image: none;
+        background-color: rgb(117, 6, 122);
+    }
+}
