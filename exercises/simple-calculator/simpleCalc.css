@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+
+input{
+    border: black solid 10px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-size: 105%;
+    text-align: center;
+    color: red;
+}
+
+div{
+    display: inline-block;
+    height: 300px;
+    width: 210px;
+    text-align: center;
+    border: black solid 10px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#subtraction{
+    background-color: lightcoral;
+}
+
+#addition{
+    background-color: yellow;
+}
+
+#multiplication{
+    background-color: green;
+}
+
+#division{
+    background-color: blueviolet;
+}
+
+button{
+    margin: 5px;
+}
+
+span{
+    font-size: 25px;
+    display:block;
+    margin: 20px;
+}
