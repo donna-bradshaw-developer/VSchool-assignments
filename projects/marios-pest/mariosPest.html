@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mariosPest.css">
+    <title>Mario Pest Control</title>
+</head>
+<body>
+    <h1>Mario's Pest Control</h1>
+    <div>
+        <form name = "pests">
+            <div id = "topLine">
+                    <span>Images</span>
+                    <span>Type of Pest</span>
+                    <span>Coin Cost</span>
+                    <span># Exterminated</span>
+                    <span>Totals</span>
+            </div>
+
+            <br>
+
+            <div id = "formbody">
+                    <div id = "goomba">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Goomba.PNG/220px-Goomba.PNG" alt="Goomba Picture">
+                        <span>Goomba</span>
+                        <span>5</span>
+                        <input type="number" name = "goombaNumber" placeholder="# of Goombas Killed" required>
+                        <span id = "goombaCost">Current Goomba Cost</span>
+                    </div>
+    
+                    <div id = "bobomb">
+                        <img src="data:image/jpeg;base64,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">
+                        <span>Bob-ombs</span>
+                        <span>7</span>
+                        <input type="number" name = "bobombsNumber" placeholder="# of Bob-ombs Killed">
+                        <span id = "bobombCost">Current Bob-ombs Cost</span>
+                    </div>
+                    
+                    <div id = "cheeps">
+                        <img src="https://vignette.wikia.nocookie.net/mario/images/c/c1/Cheep_Cheep%2C_New_Super_Mario_Bros._U.png/revision/latest?cb=20121106023911">
+                        <span>Cheep-Cheeps</span>
+                        <span>11</span>
+                        <input type="number" name = "cheepsNumber" placeholder="# of Cheeps Killed">
+                        <span id = "cheepCost">Current Cheeps Cost</span>
+                    </div>
+                    <button id= "submit">Submit</button>
+                    <div id = "totalCost">Total  Cost  of  Extermination  = XX Coins</div>
+                </div>
+                <footer>
+                    You may contact me at:<br>
+                    mario@mariopestmaster.com<br>
+                    4795 Mushroom Lane, Portal 0-1, MarioWorld<br>
+                    www.mariopestmaster.com
+                </footer>
+            </form>
+            
+        </div>
+    <script src = "mariosPest.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,85 @@
+body{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    padding: 35px 20px 20px 20px;
+    background-color: red;
+    color: white;
+    font-size: 45px;
+    font-family: "Times New Roman", cursive, serif;
+}
+
+span{
+    display: inline-block;
+    width: 235px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*flex the form (parent) so that all children affected which is the body of the page*/
+form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+#formbody > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*allows the top line to be on its own line; otherwise, the top line div and the formbody
+would be on the same row*/
+#topLine{
+    flex-basis: 100%;
+}
+
+/*formatting for all elements on the first line of the form*/
+#topLine > span{
+    font-size: 25px;
+    padding: 20px 0px;
+    background-color:blue;
+    border-radius: 3px;
+    color: white;
+}
+
+input{
+    height: 25px;
+    width: 227px;
+    text-align: center;
+    font-size: 105%;
+}
+
+/*formatting for all for all of the images of the pests*/
+img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 15px 68px 15px 68px;
+}
+
+#totalCost{
+    font-size: 50px;
+    color: red;
+    font-style: italic;
+}
+
+button{
+    padding: 15px;
+    margin: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    margin: 35px;
+}
+
