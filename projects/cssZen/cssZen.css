@@ -1,0 +1,257 @@
+@font-face{
+    font-family: Julius;
+    src: url(./fonts/juliussansone.woff2);
+}
+
+@font-face{
+    font-family: Libre;
+    src: url(./fonts/librebaservilleregular.woff2)
+}
+
+@font-face{
+    font-family: Libre-italic;
+    src: url(./fonts/librebaskervilleitalic.woff2)
+}
+
+@font-face{
+    font-family: verde;
+    src: url(./fonts/verdemoderna.woff)
+}
+
+body{
+    color: #325050;
+    background: linear-gradient(to right, #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
+}
+
+#head{
+    background-image: url(./Images/contours.png), url(./Images/noise.png), url(./Images/gridlines.png), url(./Images/huntington.jpg);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    margin: 0px -250px 0px 0px;
+    width: 125px;
+    height: 125px;
+}
+
+h1{
+    color: white;
+    font-family: Julius;
+    font-size: 52px;
+    margin: 0px 0px -8px 0px;
+}
+
+#leftHead > h3{
+    font-family: libre-italic;
+    color: rgba(255,255,255,0.6);
+    font-size: 25px;
+}
+
+#rightHead{
+    background-color: rgba(255,255,255,.2);
+}
+
+#rightHead > h3{
+    font-family: julius;
+    color: rgba(255,255,255,0.6);
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+
+#two-right{
+    background: transparent;
+    margin: 30px 0px 60px 0px;
+    padding: 10px 100px;
+    height: 960px;
+}
+
+#two-right > div > h3, .topLine3{
+    margin: 20px 0px 0px 0px;
+    color: #607476;
+    font-family: julius;
+    padding: 20px 0px 0px;
+}
+
+.topLine{
+    border-top: solid 1px #d9e3dc;
+}
+
+.topLine3{
+    border-bottom: solid 1px  #a0b9ad;
+}
+
+.by{
+    color: #c0cac3;
+    font-family: libre-italic;
+}
+
+.name{
+    color: #616857;
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+#three-left{
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(./Images/contours-opaque.png), url(./Images/gridlines-opaque.png), url(./Images/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+
+#three-right{
+    background-color: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 100px;
+}
+
+#two-left > h2, #three-left > h2, #four-left > h2{
+    font-family: julius;
+}
+
+#bottom{
+    background-image: url(./Images/contours.png), url(./Images/gridlines.png), url(./Images/noise.png), url(./Images/koi.jpg);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    text-align: center;
+    padding: 80px 125px;
+    font-family: libre-italic;
+    color: rgba(255,255,255,0.4);
+    line-height: 2;
+    height: 15%;
+}
+
+#bottom > p{
+    margin: 0px;
+    font-size: 150%;
+}
+
+.bottomWord{
+    color:rgba(255,255,255,.6);
+    font-family: libre;
+}
+
+footer{
+    background: #134347;
+    text-align: center;
+    padding: 78px;
+    margin: 0px;
+    font-family: verde;
+    display: flex;
+    justify-content: space-around;
+    font-size: 500%;
+    color:rgba(255,255,255,.4);
+    align-items: center;
+}
+
+#sideBarRight{
+    float: right;
+    padding: auto;
+    position: absolute;
+    top: 318px;
+    right: 0px;
+    width: 35%;
+}
+
+#left > div{
+    padding: 50px 500px 50px 125px;
+    line-height: 1.5;
+    font-size: 125%;
+}
+
+@media only screen and (max-width: 1130px){
+    body{
+        background: none;
+    }
+
+    #head{
+        flex-flow: row wrap;
+        height: 15%;
+    }
+
+    h1{
+        font-size: 34px;
+    }
+
+    #logo{
+        margin: 0px -435px 0px 0px;
+        padding: 0px 0px 0px 125px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #rightHead{
+        flex-basis: 100%;
+    }
+
+    #rightHead > h3{
+        font-size: 20px;
+    }
+
+    #leftHead{
+        flex-basis: 34%;
+        padding: 25px 0px;
+    }
+
+    #leftHead > h3{
+        font-size: 20px;
+    }
+
+    #three-right{
+        background-color: rgba(138,188,159,0.5);
+        background-image: url(./Images/bamboo.png);
+        padding: 0px;
+    }
+
+    #two-right{
+        background: #edf4f0;
+        margin: 0px;
+        padding: 0px;
+        height: 20%;
+    }
+
+    #two-right, #three-right{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #two-right > div{
+        flex-basis: 45%;
+        padding: 0px 0px 10px 40px;
+    }
+
+    #two-right > div > h3{
+        margin: 0px;
+    }
+
+    .topLine3{
+        display: inline-block;
+        padding: 20px 0px 20px 40px;
+        flex-basis: 45%;
+    } 
+
+    #sideBarRight{
+        float: none;
+        position: static;
+        width: 100%;
+    }
+
+    #bottom{
+        font-size: 90%;
+    }
+
+    #left > div {
+        padding: 50px 100px;
+        font-size: 100%;
+    }
+
+    #last{
+        flex-basis: 100%;
+    }
+}
