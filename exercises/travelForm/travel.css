@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image: url(../travelForm/john-towner-192621-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body > div{
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face{
+    font-family: charmonan;
+    src: url(./Charmonman-Regular.ttf)
+}
+
+h1, h2, input{
+    font-family: charmonan;
+}
+
+h1, h2{
+    flex-basis: 100%;
+    font-size: 300%
+}
+
+form{
+    margin: 50px 0px 0px 0px;
+   font-size: 120%;
+   text-align: justify;
+}
+
+input, select{
+    margin: 20px;
+    font-size: 100%;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
